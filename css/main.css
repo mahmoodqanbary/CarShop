@@ -104,3 +104,10 @@ body{
   opacity: 0.6;
 >>>>>>> html
 }
+/*section title */
+.section-title-special{
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0,100% 0, 90% 100%, 0 100%);
+}
