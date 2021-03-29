@@ -126,3 +126,16 @@ body{
   background: var(--mainBlue);
   margin: 1rem auto;
 }
+/*Preloader*/
+.preloader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--mainWhite);
+  z-index: 999;
+}
+.hidePreloader{
+  display: none !important;
+}
