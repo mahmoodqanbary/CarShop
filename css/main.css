@@ -54,6 +54,8 @@ body{
 .header{
   color: var(--mainWhite);
   overflow: hidden;
+  clip-path: polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
+
 }
 .height-max{
   min-height: calc(100vh - 76px);
